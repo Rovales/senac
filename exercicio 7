@@ -1,0 +1,21 @@
+programa
+{
+	
+real meta
+	real vendas
+	cadeia nome
+	funcao inicio()
+	{
+		escreva ("Digite o nome do funcionário ")
+		leia(nome)
+		escreva("Digite a meta ")
+		leia(meta)
+		escreva (" Quantos que você vendeu ", nome )
+		leia(vendas)
+		se ( vendas < meta){
+			escreva (" Você não atingiu a meta, e você não ganhou ")
+		}
+		senao  escreva ( " Você atingiu a meta e ganhou ")
+	}
+ 	
+}
