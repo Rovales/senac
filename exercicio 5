@@ -1,0 +1,28 @@
+programa
+{
+	
+cadeia nome1 
+	cadeia nome2
+	inteiro ano1
+	inteiro ano2
+	inteiro data1
+	inteiro data2
+	funcao inicio()
+	{
+		escreva("Digite seu nome ")
+		leia (nome1)
+		escreva (" Digite o ano do seu nascimento " + nome1 + "\n")
+		leia(ano1)
+		escreva (" Digite outro nome ") 
+		leia (nome2)
+		escreva (" Digite o ano do seu nascimento " + nome2 + "\n")
+		leia (ano2)
+		data1 = (ano1 - 2022)
+		data2 = (ano2 - 2022)
+		se (data1 > data2){
+			escreva ( nome1, " é mais novo(a) ")
+		}
+		senao escreva ( nome2, " é mais novo(a)")
+		}
+	}
+
