@@ -1,0 +1,26 @@
+programa
+{
+	
+cadeia nom1
+	cadeia nom2
+	real alt1
+	real alt2
+	funcao inicio()
+	{
+		escreva("Digite o nome da pessoa ")
+		leia (nom1)
+		escreva (" Digite sua altura ",nom1 + "\n")
+		leia(alt1)
+		escreva (" Digite outro nome ")
+		leia (nom2)
+		escreva (" Digite sua altura ", nom2 + "\n")
+		leia(alt2)
+		se (alt1 > alt2){
+			escreva (nom1 + " é maior ")
+		}
+		senao {
+			escreva (nom2 + " é maior ")
+		}
+		
+	}
+}
