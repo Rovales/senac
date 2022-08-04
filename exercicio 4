@@ -1,0 +1,15 @@
+programa
+{
+	
+real temp
+	funcao inicio()
+	{
+		escreva("Digite a temperatura ")
+		leia (temp)
+		se( temp >25){
+			 escreva ( " Esta muito quente ")
+		}
+		senao escreva (" escreva esta agradável ")
+	
+	}
+}
