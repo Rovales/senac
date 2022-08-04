@@ -1,0 +1,18 @@
+programa
+{
+	
+real num1
+	real num2
+	funcao inicio()
+	{
+		escreva("Digite um número")
+		leia(num1)
+		escreva ("Digite outro número ")
+		leia (num2)
+		se (num1 < num2){
+			escreva(" o " + num1, " é menor que o " + num2 )		
+		}
+		senao escreva (" o " + num2, " é menor  que o " + num1 )
+			
+		}
+}
