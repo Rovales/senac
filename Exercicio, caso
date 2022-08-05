@@ -1,0 +1,23 @@
+programa{
+	funcao inicio(){	
+		inteiro opcao
+		escreva("1) AZUL \n")
+		escreva("2) VERMELHO \n")
+		escreva("3) Sair \n\n")
+		escreva("Escolha uma opção: ")
+		leia(opcao)
+		limpa()
+		escolha (opcao){
+			caso 1: 
+		 		escreva (" Você escolheu o AZUL")
+		 		pare   
+		 	caso 2: 
+		 		escreva ("Voce é escolheu o VERMELHO!")
+		 		pare  
+		 	caso 3: 
+		 		escreva ("Tchau!")
+		 		pare
+		 	caso contrario: 
+		 		escreva ("Opção Inválida !")     }
+		escreva("\n")
+	}}
