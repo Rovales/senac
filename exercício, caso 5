@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+{
+		inteiro fruta
+		escreva (" Escolha uma fruta \n\n")
+		escreva("1) Morango \n")
+		escreva ("2) Melancia \n")
+		escreva ("3) Pitanga \n")
+		escreva ("4) Uva \n")
+		leia (fruta)
+		limpa()
+		escolha (fruta){
+			caso 1: 
+				escreva ("Milkshake ")
+			pare
+			caso 2: 
+				escreva (" Suco refrescante ")
+			pare
+			caso 3: 
+				escreva (" Suco de polpa ")
+			pare
+			caso 4: 
+				escreva (" Vinho tinto ")
+			pare
+			caso contrario:
+				escreva ( "Não temos essa fruta ")
+			
+			
+		}
+	}
+}
