@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Texto --> t
+	inclua biblioteca Calendario
+ --> c
+	
+	cadeia nome
+	inteiro nasci
+	inteiro idade
+
+	
+	funcao inicio()
+	{
+		escreva(" Digite seu nome ")
+		leia (nome)
+		escreva (" Digite o ano do seu nascimento "+ t.caixa_alta (nome) +", ")
+		leia (nasci)
+		idade = ( c.ano_atual()- nasci)
+		escreva (" Sua idade é de ",idade," anos\n")
+	}
+}
