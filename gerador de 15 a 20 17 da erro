@@ -6,15 +6,12 @@ programa
 	{
 		inteiro inicial = 15
 		inteiro final = 20
-		gerado = u.sorteia(inicial, final)
+		gerado = u.sorteia(15, 20)
 		se (gerado == 17){
 			escreva (" Número gerado foi ", gerado + " número inválido")
 		}
-		senao se (inicial >=15 e final <= 20){
-			escreva ("Número gerado foi de ", gerado)
-		}
 		senao {
-			escreva ("Numero inválido digite novamente ")
+			escreva ("Numero gerado foi ", gerado)
 		}
 		
 		
