@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Texto --> t
+
+	cadeia nome
+	cadeia maiuscula
+	funcao inicio()
+	{
+		enquanto ( verdadeiro ){
+			escreva("Digite seu nome, ou q para parar: ")
+		     leia (nome)
+		     escreva (" Bons estudos \n")
+		      maiuscula = t.caixa_alta(nome)
+		    se (maiuscula == "Q"){
+		    		pare
+		    }
+		   
+		}
+			escreva (" Até logo ")
+
+	}
+}
