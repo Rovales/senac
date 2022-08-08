@@ -1,0 +1,17 @@
+programa
+{
+	inclua biblioteca Util
+ -->u
+	inteiro inicial, final, aleatorio
+	
+	funcao inicio()
+	{
+		escreva (" entre com o limite inferior ")
+		leia (inicial)
+		escreva (" entre com o limite superior ")
+		leia (final)
+
+		aleatorio = u.sorteia(inicial, final)
+		escreva (" o numero gerado foi ", aleatorio)
+	}
+}
