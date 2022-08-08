@@ -1,0 +1,23 @@
+programa
+{
+	inclua biblioteca Util --> u
+	inteiro gerado
+	funcao inicio()
+	{
+		inteiro inicial = 15
+		inteiro final = 20
+		gerado = u.sorteia(inicial, final)
+		se (gerado == 17){
+			escreva (" Número gerado foi ", gerado + " número inválido")
+		}
+		senao se (inicial >=15 e final <= 20){
+			escreva ("Número gerado foi de ", gerado)
+		}
+		senao {
+			escreva ("Numero inválido digite novamente ")
+		}
+		
+		
+
+	}
+}
