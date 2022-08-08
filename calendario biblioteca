@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Calendario
+ --> c
+	inteiro mes
+	inteiro ani
+	
+	funcao inicio()
+	{
+		escreva("Mês do aniversário")
+		leia (mes)
+		ani = c.MES_JUNHO 
+		se (ani == mes){
+			escreva (" Seu aniversário é no mês ", ani + "\n")
+		}
+		senao{
+			escreva (" Este não é o mês do  seu aniversário ")
+		}
+		
+	}
+}
