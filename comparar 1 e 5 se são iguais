@@ -1,0 +1,23 @@
+programa
+{
+	inclua biblioteca Util
+--> u
+	
+inteiro gerado, gerado1
+	funcao inicio()
+	{
+		gerado = u.sorteia(1, 5)
+		gerado1 = u.sorteia(1, 5)
+		escreva (gerado + "\n")
+		escreva (gerado1 + "\n")
+		se (gerado  == gerado1){
+			escreva (" Numeros iguais ")
+		}
+		senao {
+			escreva ("Números Diferentes ")
+		}
+
+
+		
+	}
+}
