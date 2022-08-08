@@ -1,0 +1,16 @@
+programa
+{
+	inclua biblioteca Util
+ -->u
+	inteiro num
+	funcao inicio()
+	{
+		escreva("Digite um numero ")
+		leia (num)
+		enquanto (num >=1 ){
+			escreva (num + "\n")
+				num --
+				num --
+		}
+	}
+}
