@@ -1,0 +1,29 @@
+programa
+
+{
+     inclua biblioteca Texto --> t
+     
+ 	cadeia senha
+	
+cadeia usuario
+	inteiro caracteres
+	funcao inicio()
+	{
+		escreva("Cadastre seu nome de usúario ")
+		leia(usuario)
+		limpa()
+		escreva (" Cadastre uma senha entre 8 e 12 caracteres ")
+		leia(senha)
+		limpa()
+		caracteres = t.numero_caracteres(senha)
+		se (caracteres >= 8 e caracteres <=12) {
+			 escreva ("Usuario criado com sucesso seu login é ", usuario)
+		}
+		senao {
+			escreva (" Senha inválida, digite uma senha entre 8 e 12 caracteres ")
+		}
+		
+			
+	
+	}
+}
