@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Texto
+ --> t
+	cadeia pais, maiusculas
+	inteiro letras
+	
+	funcao inicio()
+	{
+		escreva(" Digite o nome de um pais ")
+		leia(pais)
+		
+		maiusculas = t.caixa_alta(pais)
+		escreva (" o pais escolhido foi "+maiusculas)
+		
+		letras =t.numero_caracteres(pais)
+		escreva (" O nome do pais possui "+ letras +" caracteres ")
+		
+		
+	}
+}
