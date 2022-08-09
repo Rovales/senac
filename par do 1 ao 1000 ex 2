@@ -1,0 +1,15 @@
+programa
+{
+	inclua biblioteca Util-->u
+	inteiro num
+	funcao inicio()
+	{
+	
+		num = 1000
+		enquanto (num >=1 ){
+			escreva (num + "\n")
+				num --
+				num --
+		}
+	}
+}
