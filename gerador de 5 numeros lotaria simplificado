@@ -1,0 +1,14 @@
+programa
+{
+	inclua biblioteca Util
+	inteiro n
+	
+	funcao inicio()
+	{
+		escreva("gerador de números de loteria \n\n")
+
+		para (n = 1; n <= 5; n++) {
+				escreva (Util.sorteia(1, 50) + " ")
+		}
+	}
+}
