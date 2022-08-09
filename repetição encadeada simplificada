@@ -1,0 +1,22 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+inteiro contA, contB, contC
+	funcao inicio()
+	{
+		para (contA = 1; contA <=5; contA ++){
+			escreva (" Rodada " + contA + "\n")
+			para (contB = 5; contB  >=1; contB --){
+				escreva (" Valor : " + contB +"\n")
+				para (contC = 1; contC  <=3; contC ++){
+					u.aguarde(400)
+					escreva (" Item : " + contC +"\n")
+					
+					
+				}
+			}
+		}
+	}
+}
