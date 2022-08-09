@@ -8,7 +8,7 @@ inteiro cont, quant
 	{
 		escreva ( "Para sair do programa pressione 0\n " )
 		enquanto (verdadeiro) {
-			escreva (" Quantos números deseja gerar ?\n")
+			escreva (" \nQuantos números deseja gerar ?\n")
 			leia (quant)
 			se (quant ==0 ){
 				pare
