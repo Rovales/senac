@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+inteiro cont, quant
+	funcao inicio()
+	{
+		escreva ( "Para sair do programa pressione 0\n " )
+		enquanto (verdadeiro) {
+			escreva (" Quantos números deseja gerar ?\n")
+			leia (quant)
+			se (quant ==0 ){
+				pare
+			}
+			para (cont = 1; cont <= quant; cont ++ ){
+				escreva (u.sorteia(1, 60) + " " + "  ")
+			}
+		}
+	}
+}
