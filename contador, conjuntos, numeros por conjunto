@@ -1,0 +1,28 @@
+programa
+{
+	inclua biblioteca Util --> u
+	
+ inteiro contA, contB, quantA, quantB
+ 
+	
+	funcao inicio()
+	{    escreva (" Digite a quantidade por conjuntos a gerar:")
+		leia(quantA)
+		escreva ("Digite o numeros por conjunto ")
+		leia (quantB)
+		para (contA = 1; contA <= quantA; contA++) {
+			escreva ("\nConjunto: " + contA + ": ")
+			para (contB = 1; contB <=quantB; contB ++) {
+				inteiro n = u.sorteia(1, 100)
+				escreva (n + " ")
+				
+			}
+			
+			
+			
+			
+			
+		}
+	}
+		
+	}
