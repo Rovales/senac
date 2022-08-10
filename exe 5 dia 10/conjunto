@@ -1,0 +1,19 @@
+programa
+{
+    inclua biblioteca Util --> u
+    inteiro conj,num,conjA,numA
+    funcao inicio()
+    {
+        escreva("Quantos conjuntos deseja gerar \n")
+        leia(conj)
+        escreva("Quantos números por conjunto a gerar")
+        leia(num)
+        para(conjA = 1; conjA <= conj; conjA++){
+            escreva("\nConjuntos:" + conjA + ":")
+        para(numA = 1; numA <= num; numA++)
+        escreva(u.sorteia(1,99) + " " )
+        }
+       
+       
+    }
+}
