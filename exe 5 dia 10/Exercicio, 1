@@ -1,0 +1,14 @@
+programa
+{
+	
+const real  numerador =1.0
+	inteiro denominador
+	real soma = 0.0
+	funcao inicio()
+	{
+		para (denominador = 1; denominador <=20; denominador ++){
+			soma += numerador / denominador
+		}
+		escreva (" O somatorio é " + soma)
+	}
+}
