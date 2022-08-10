@@ -1,0 +1,20 @@
+programa
+{
+	
+inteiro num, adivinha, tentativas = 0
+	funcao inicio()
+	{
+		escreva("Digite um palpite")
+		leia(num)
+		limpa()
+		enquanto(verdadeiro){
+			escreva ("Jogador 2 qual o número ?")
+			leia(adivinha)
+				se (adivinha ==num){
+					escreva (" Parabéns você acertou " )
+				pare
+				}
+				escreva (" Você errou\n ")
+		}
+	}
+}
