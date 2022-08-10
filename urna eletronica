@@ -1,0 +1,58 @@
+programa
+{
+	funcao inicio()
+	{	
+
+		inteiro partido43 = 0, partido51 = 0
+		
+		inteiro brancos = 0, nulos = 0, totalVotos = 0
+		
+		inteiro voto
+		
+		faca{
+		
+			limpa()
+			escreva("Escolha seu candidato ou tecle zero para encerrar\n\n")
+			
+			escreva("  1 -> Partido 43\n")
+			escreva("  2 -> Partido 51\n")
+			
+			escreva("\nQualquer número diferente de 0, 1, 2 e 3 anulara o seu voto\n")
+			escreva("Digite seu voto: ")
+			
+			leia(voto)
+			limpa()
+
+			escolha (voto)
+			{
+				caso 0:
+					escreva ("Votação encerrada!\n")
+				pare
+				
+				caso 1: 
+			 		partido43 = partido43 + 1 
+			 	pare
+			 	
+			 	caso 2: 
+			 		partido51 = partido51 + 1 
+			 	pare
+			 	
+			 	
+			 	caso contrario:
+			 		nulos = nulos + 1 
+			}			 
+	}
+		enquanto(voto != 0)
+
+		// Calcula o total de votos
+		totalVotos = partido43 + partido51 + brancos + nulos
+
+			escreva (" Resultado da eleição\n ")
+			
+			escreva("Número total de votantes: ", totalVotos, "\n\n")
+			escreva("Partido 43 teve " , partido43, " voto(s).\n")
+			escreva("Partido 51 teve ", partido51, " voto(s). \n" )
+			escreva("Número de votos nulos: ", nulos, " voto(s). \n")
+		
+	}
+}
