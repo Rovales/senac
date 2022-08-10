@@ -1,0 +1,33 @@
+programa
+{
+	
+inteiro outroValor
+	funcao inicio()
+	{
+		inteiro doacao
+		escreva ("\n DOAÇÃO CRIANÇA ESPERANÇA \n")
+		escreva ("1) Para doar R$10 reais\n")
+		escreva ("2) Para doar R$20 reais\n")
+		escreva ("3) Para doar R$30 reais\n")
+		escreva ("Ou digite qualquer valor\n")
+		leia(doacao)
+		escolha (doacao){
+		caso 1:
+			outroValor = 10 
+			pare
+		caso 2: 
+			escreva ("digite outro valor ")
+			leia (doacao)
+			escreva (" Sua doação foi de " + doacao)
+			pare
+		caso 3:
+			outroValor = 30
+			pare
+		}
+		se (verdadeiro){
+		escreva (" Vc duou"+outroValor +" reais ")
+		}
+		
+		 
+	}
+}
