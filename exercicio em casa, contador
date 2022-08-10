@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Util
+--> u
+	
+	funcao inicio()
+	{
+		inteiro contador = 10
+	enquanto (contador >0 )
+	{
+		limpa()
+		escreva ("Detonacão em " + contador)
+
+		contador = contador--
+		u.aguarde(1000)
+	}
+		limpa()
+		escreva ("BOOOOOOOM!!! ")
+	
+	}
+}
