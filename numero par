@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num, resto 
+		escreva ("digite um número ")
+		leia(num)
+		resto = num % 2
+		se
+			(resto == 0){
+				escreva(" Este número é par ")
+		}
+		senao{
+			escreva (" Este número não é par ")
+		}
+	}
+}
