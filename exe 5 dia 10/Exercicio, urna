@@ -5,7 +5,7 @@ programa
 
 		inteiro partido43 = 0, partido51 = 0
 		
-		inteiro brancos = 0, nulos = 0, totalVotos = 0
+		inteiro nulos = 0, totalVotos = 0
 		
 		inteiro voto
 		
@@ -17,7 +17,7 @@ programa
 			escreva("  1 -> Partido 43\n")
 			escreva("  2 -> Partido 51\n")
 			
-			escreva("\nQualquer número diferente de 0, 1, 2 e 3 anulara o seu voto\n")
+			escreva("\nQualquer número diferente de 0, 1, 2 anulara o seu voto\n")
 			escreva("Digite seu voto: ")
 			
 			leia(voto)
@@ -45,7 +45,7 @@ programa
 		enquanto(voto != 0)
 
 		// Calcula o total de votos
-		totalVotos = partido43 + partido51 + brancos + nulos
+		totalVotos = partido43 + partido51  + nulos
 
 			escreva (" Resultado da eleição\n ")
 			
