@@ -1,0 +1,28 @@
+programa
+{
+    inclua biblioteca Util--> u
+    
+    funcao inicio()
+    {
+        inteiro numero, sorteio, tentativas = 0
+        
+        escreva("Jogador #1 Digite um número:")
+        leia(numero)
+        sorteio = u.sorteia(1, numero)
+        enquanto(numero != sorteio){
+
+ 
+
+            se(numero > sorteio){
+            escreva("Número errado")
+            leia(numero)
+            tentativas++
+        }
+        }
+        se(numero == sorteio){
+        escreva("Você ganhou")
+        escreva("\n O número sorteado é:", sorteio)
+        escreva("\n Você levou", tentativas, "tentativas para acertar o número")
+        }
+    }
+}
