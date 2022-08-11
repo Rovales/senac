@@ -1,0 +1,41 @@
+programa
+{
+	inclua biblioteca Matematica -->m
+	inclua biblioteca Util -->u
+	
+real raio, area
+	funcao inicio()
+	{
+		escreva (" Digite o raio do círculo em cm: ")
+		leia(raio)
+		// invocar a função e passar o argumento
+		area = calculaAreaCirculo (raio)
+
+		escreva (" A área do circulo é de " + area + " cm². \n")
+	
+	}
+	funcao mostraMensagem () {
+		escreva (" Está chegando Sexta-Feira ")
+		escreva ("\nContagem regressiva ..")
+	}
+
+	funcao calculaCubo (inteiro num){
+		escreva (" \nCalculo do cubo de um número\n")
+		inteiro cubo = num * num * num
+		escreva ("\n o cubo de " + num + " é " + cubo)
+	}
+	funcao contador(inteiro inicial, inteiro final) {
+		para (inteiro i = inicial; i <=final; i++){
+				escreva (i +"\n")
+				u.aguarde(100)
+				limpa()		
+		}
+		
+	}
+		funcao real calculaAreaCirculo (real r) {
+			real areaCirculo = 0.0
+			areaCirculo = m.PI * r * r
+			retorne areaCirculo
+			
+		}
+}
