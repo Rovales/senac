@@ -1,0 +1,23 @@
+programa
+{
+	
+inteiro num = 0
+	inteiro fat = 0
+	funcao inicio()
+	{
+		escreva("Digite um número positivo para saber o seu fatorial ")
+		leia (num)
+		
+		fat = fatorial (num)
+		escreva ("\n O fatorial de " + num + " é " + fat)
+	}
+	funcao inteiro fatorial(inteiro n){
+		se((n == 0 ) ou (n == 1 )){
+			retorne 1
+		}
+		senao{
+			retorne n * fatorial(n-1)
+		}
+		
+	}
+}
