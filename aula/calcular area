@@ -1,0 +1,26 @@
+programa
+{
+	
+real largura, comprimento, terreno
+	funcao inicio()
+	{
+		escreva (" Digite a largura do terreno:\n")
+		leia(largura)
+		escreva (" Digite o comprimento do terreno\n")
+		leia (comprimento)
+		terreno = calculaArea (largura)
+		escreva (" A área do terreno  é "+ terreno+"m²")
+
+		
+		
+		
+	}
+	funcao real calculaArea(real Largura) {
+			real area = 0.0
+			area = largura * comprimento
+			retorne area
+			
+		
+	}
+}
+		
