@@ -1,0 +1,21 @@
+programa{
+  
+  funcao inicio(){
+    inteiro n
+
+    escreva("Qual posição deseja descobrir? ")
+    leia(n)
+
+    escreva("a posição de ", n, " é: ", fibonacci(n))
+  }funcao inteiro fibonacci(inteiro n){
+   	 se(n == 0)
+      	retorne 0
+      	
+   	 senao{
+      	se(n == 1)
+    			retorne 1
+      senao
+        	retorne fibonacci(n - 1) + fibonacci(n - 2)
+    }
+  }
+}
