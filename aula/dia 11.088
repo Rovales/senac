@@ -1,0 +1,32 @@
+programa
+{
+	
+inteiro comeco, fim
+	funcao inicio()
+	{
+	
+		escreva (" Digite o valor inicial")
+		leia (comeco)
+		
+		escreva (" Digite o valor final")
+		leia (fim)
+		contador (comeco,fim)
+	
+	}
+	funcao mostraMensagem () {
+		escreva (" Está chegando Sexta-Feira ")
+		escreva ("\nContagem regressiva ..")
+	}
+
+	funcao calculaCubo (inteiro num){
+		escreva (" \nCalculo do cubo de um número\n")
+		inteiro cubo = num * num * num
+		escreva ("\n o cubo de " + num + " é " + cubo)
+	}
+	funcao contador(inteiro inicial, inteiro final) {
+		para (inteiro i = inicial; i <=final; i++){
+				escreva (i +"\n")
+		}
+		
+	}
+}
