@@ -1,0 +1,14 @@
+programa
+{
+	inclua biblioteca Util
+	
+	funcao inicio()
+	{
+		mostraMensagem ()
+	
+	}
+	funcao mostraMensagem () {
+		escreva (" SONO DA PORRA :")
+		escreva ("\nContagem regressiva ..")
+	}
+}
