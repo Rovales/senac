@@ -1,0 +1,25 @@
+programa
+{
+	
+real massa
+	real altura 
+	real imc
+	cadeia nome
+	funcao inicio()
+	{
+	 escreva("Digite seu nome:")
+      leia(nome)
+      
+	 escreva("qual a sua altura(cm): ")
+      leia(altura)
+      
+	 escreva("qual o seu peso(KG):")
+      leia(massa)
+      mostraPeso()
+        
+	}
+	funcao mostraPeso() {
+		 imc = massa / altura / altura * 10000
+     	 escreva (nome + " Seu imc é de " + imc)
+		}
+}
