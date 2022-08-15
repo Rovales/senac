@@ -1,0 +1,21 @@
+programa
+{
+	
+caracter j1, j2,j3
+	logico estado
+	funcao inicio()
+	{
+		j1 = 'a'
+		j2 = 'f'
+		j3 = 'a'
+
+		escreva (" alguma janela aberta ??\n")
+		estado = j1 == 'a' ou j2 == 'f' ou j3 == 'f'
+		escreva (estado)
+		escreva (" \nAlarme desligado " + (nao estado) )
+		
+		
+		
+	}
+	
+}
