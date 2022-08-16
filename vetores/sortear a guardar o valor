@@ -1,0 +1,21 @@
+programa
+{
+	inclua biblioteca Util
+--> u
+	
+inteiro sorteados [5]
+	funcao inicio()
+	{
+		escreva("Numeros sorteados")
+		u.aguarde(1000)
+		para (inteiro n = 0; n <5; n++){
+			sorteados [n] = u.sorteia(1, 50)
+		}
+
+		escreva (" Números sorteados \n")
+		para (inteiro n = 0; n <5; n++){
+			escreva (sorteados [n] +" ")
+		}
+		
+		}
+}
