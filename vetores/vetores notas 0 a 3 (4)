@@ -1,0 +1,25 @@
+programa
+{
+	
+real notas [4]
+	real soma = 0, media
+	inteiro c 
+	funcao inicio()
+	{
+		escreva (" Digite as 4 notas ")
+		para (c = 0; c <=3; c++){
+		leia (notas [c])
+		soma += notas[c]
+		}
+
+
+		para (c = 0;  c <=3; c++){
+			escreva ("Nota" +(c+1)+":" + notas[c] + "\n")
+		media = soma / 4
+		}
+		escreva (" a media é " +media + "\n")
+}
+
+		
+	}
+		
