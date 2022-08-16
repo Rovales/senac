@@ -14,7 +14,7 @@ real notas [4]
 		escreva ("digite outra nota ")
 		leia (notas[0])
 		nota = notas [2]
-		escreva ("valor na posição 2 do vetor " + nota)
+		escreva ("valor na posição 2 do vetor " + notas[2] + "\n")
 		escreva ("Valor na variavel " + nota)
 		
 	}
