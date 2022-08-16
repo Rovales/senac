@@ -1,0 +1,21 @@
+programa
+{
+	
+real notas [4]
+	real nota 
+	funcao inicio()
+	{
+		escreva("Digite uma nota")
+		leia (notas[2])
+		escreva ("digite outra nota ")
+		leia (notas[1])
+		escreva ("digite outra nota ")
+		leia (notas[3])
+		escreva ("digite outra nota ")
+		leia (notas[0])
+		nota = notas [2]
+		escreva ("valor na posição 2 do vetor " + nota)
+		escreva ("Valor na variavel " + nota)
+		
+	}
+}
