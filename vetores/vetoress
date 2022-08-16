@@ -1,0 +1,15 @@
+programa
+{
+	
+inteiro notas [12]
+	inteiro contador
+	funcao inicio()
+	{
+		para (contador = 0; contador <10; contador ++){
+			notas [contador] = contador*3
+		}
+		para (contador = 0; contador <=9; contador ++){
+			escreva (notas[contador] +" ")
+		}
+}
+}
