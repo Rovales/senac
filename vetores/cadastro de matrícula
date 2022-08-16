@@ -1,0 +1,37 @@
+programa
+{
+	
+inteiro mat [5]
+	inteiro i, sinal, cons
+	caracter continua  = 's'
+	funcao inicio()
+	{
+	
+	para (i= 0; i <=4; i++){
+		escreva (" cadastre um número de mátricula ")
+		leia (mat[i])	
+	  }
+	 enquanto (( continua != 'n') e  (continua != 'N')){
+	 sinal = 0 
+	 escreva ("Digite a mátricula a consultar: \n")
+	 leia (cons)
+
+	 para ( i = 0; i <=4; i++){
+	 	se(cons == mat[i]){
+	 		sinal = 1
+	 }
+	 }
+	 
+	 se ( sinal == 1){
+	 	escreva (" Matrícula esncontrada!\n ")
+	 }
+	 senao {
+	 	escreva (" Matrícula inexixtente ")
+	 }
+	 	escreva (" Consultar outra matrícula?? S = Sim, N = Não ")
+	 	 leia (continua)
+	 	limpa()
+	  }
+	
+	}
+}
