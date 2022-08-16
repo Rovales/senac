@@ -1,0 +1,40 @@
+programa
+{
+	inclua biblioteca Texto
+ --> t
+	
+inteiro mat[5]
+	inteiro i, consulta, sinal
+	cadeia continua = "s"
+	funcao inicio()
+	{
+	// cadastrar as matrículas
+		para (i = 0; i <= 4; i ++){ //Pode começãr em qualquer posição
+			escreva (" Cadastre a matrícula ")
+			leia (mat[i])
+		}
+		limpa()
+		// consultar as matrículas
+		enquanto ( continua != "n"){
+			sinal = 0 
+			escreva (" Consultar matrícula ")
+			leia (consulta)
+			para (i = 0; i <= 4; i++){
+				se(consulta == mat[i]){
+					sinal = 1 	
+				}
+			}
+			se ( sinal ==1){
+				escreva (" Matrícula encontrada\n ")
+			}
+			senao{
+				escreva (" Matrícula não encontrada ")
+			}
+			escreva (" Consultar outra matrícula?\n S = Sim / N= Não ")
+			leia (continua)
+			limpa()
+			t.caixa_alta(continua)
+		}
+		
+	}
+}
