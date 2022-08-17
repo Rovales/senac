@@ -1,0 +1,39 @@
+programa
+{
+	inclua biblioteca Util--> u
+	
+inteiro array[30]
+	inteiro aux, contA, contB, contE
+	
+	funcao inicio()
+	{
+
+		
+		// INSERIR DADOS NO ARRAY
+		para(  contE = 0; contE <=29; contE ++){
+			array[contE] = u.sorteia(1, 1000)
+		}
+			ordenaVetor()
+		// EXIBIR OS RESULTADOS NO CONSOLE
+		para (contE = 0; contE <= 29; contE++){
+			escreva (array[contE] + " ")
+			
+			
+			
+		}
+		
+	}// ordenação do vetor
+	funcao ordenaVetor(){
+		
+		para(contA = 0; contA  <=29; contA++){
+			para(contB = contA + 1; contB <= 29; contB ++){ // DESCOBRIR O VETOR B
+				se (array[contA] > array[contB]){
+					aux = array [contB]
+					array [contB] = array [contA]
+					array [contA] = aux
+				}
+				
+			}
+		}
+	}
+}
