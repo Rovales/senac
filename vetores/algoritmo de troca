@@ -1,0 +1,26 @@
+programa
+{
+	
+inteiro a, b, aux
+	funcao inicio()
+	{
+		escreva("Valor da 1º variável")
+		leia (a)
+		escreva(" Valor da 2º variável ")
+		leia (b)
+		escreva (" a vale " + a + " e b vale " +b + "\n")
+
+
+		// algoritmo de troca de valores
+
+		aux = b
+		b = a
+		a = aux
+
+		//resultado 
+		escreva (" após aplicar o algoritmo de roca \n")
+		escreva (" Agora a vale " + a + " e b vale " + b + "\n")
+		
+		
+	}
+}
