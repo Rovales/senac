@@ -14,7 +14,7 @@ inteiro array[3]
 
 		// ordenação do vetor
 		para(contA = 0; contA  <=2; contA++){
-			para(contB = contA + 1; contB <= 2; contB ++){
+			para(contB = contA + 1; contB <= 2; contB ++){ // DESCOBRIR O VETOR B
 				se (array[contA] > array[contB]){
 					aux = array [contB]
 					array [contB] = array [contA]
