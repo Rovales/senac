@@ -1,0 +1,24 @@
+programa
+{
+	
+cadeia nome[5]
+	inteiro tempo [5]
+	funcao inicio()
+	{
+	//AQUI PREENCHE OS ARRAYS NOME E TEMPO
+		para(inteiro i = 0; i <5; i++){
+			escreva (" Digite o nome do professor ")
+			leia (nome[i])
+			escreva (" Digite o tempo de casa ")
+			leia (tempo [i])
+		}
+		//MOSTRAR RESULTADO NO CONSOLE
+		escreva ("professor \t" + "tempo de casa\n")
+		para (inteiro i = 0; i <5; i++){
+			escreva (nome[i] + "\t \t" + tempo[i]+"\n")	
+			
+			
+			 
+		}
+	}
+}
