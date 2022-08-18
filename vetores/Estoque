@@ -1,0 +1,20 @@
+programa
+{
+    cadeia codProduto[5]
+    inteiro quantidade[5]
+    funcao inicio()
+{
+    // AQUI PREENCHE OS VETORES 
+    para(inteiro i = 0; i < 5; i++) {
+    escreva("Digite o código do produto: ")
+    leia(codProduto[i])
+    escreva("Digite a quantidade em estoque: ")
+    leia(quantidade[i])
+}
+// MOSTRAR A QUANTIDADE NO CONSOLE
+    escreva("CodProduto\tQtdeEstoque\n")
+    para(inteiro i = 0; i < 5; i++) {
+    escreva(codProduto[i] + "\t\t" + quantidade[i] + "\n")
+        }
+    }
+}
