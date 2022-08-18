@@ -20,9 +20,9 @@ inteiro array3x[5]
 			array3x[i] = array[i]*fator
 		}
 		//AQUI VAI MOSTRAR OS RESULTADOS NO CONSOLE
-		escreva ("Número\tx" + fator+ "\n")
+		escreva ("Número\tx" + fator+ "\n") // \T PARA DEIXAR ALINHADO
 		para(inteiro i = 0; i <5; i++){
-			escreva (array[i] + "\t"+ array3x[i]+"\n")
+			escreva (array[i] + "\t"+ array3x[i]+"\n") // \T PARA DEIXAR ALINHADO
 		}
 	}
 	
