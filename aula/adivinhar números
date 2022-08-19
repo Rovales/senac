@@ -1,0 +1,26 @@
+programa
+{
+	inclua biblioteca Util-->u
+	
+inteiro num, adivinha, tentativas= 0 
+	funcao inicio()
+	{
+		escreva("escreva um numero de 1 a 10 ")
+		leia (num)
+
+		enquanto (verdadeiro){
+			escreva ("jogador 2 adivinhe ")
+			leia (adivinha)
+			tentativas++
+		se(adivinha == num){
+			escreva ("Parabéns você acertou em " +tentativas +" tentativas ")
+			pare
+		}
+		escreva ("ERRRRRROOOU")
+		u.aguarde(1000)
+		limpa()
+		
+			
+		}
+	}
+}
