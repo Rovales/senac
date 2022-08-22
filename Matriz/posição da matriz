@@ -1,0 +1,32 @@
+programa
+{
+	
+inteiro matriz [3][3]
+	inteiro lin, col
+	funcao inicio()
+	{
+		// Preencher a matriz
+		para(lin = 0; lin <=2; lin++){
+			para(col = 0; col <=2; col++){		
+				escreva ("Digite um número ")
+				leia(matriz[lin][col])
+			}
+		}
+
+		// Escrever valor na tela
+		escreva ("Linha 2, coluna 2: " + matriz [2][2]+"\n\n")
+
+		// Mostrar a matriz completa na tela
+		
+		para(lin = 0; lin <= 2; lin++){
+			para(col = 0; col <=2; col++){
+				se(col <2){
+					escreva (matriz[lin][col]+ " ")
+				}
+				senao {
+					escreva (matriz[lin][col]+ "\n")
+				}
+			}
+		}
+	}
+}
