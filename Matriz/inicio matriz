@@ -1,0 +1,17 @@
+programa
+{
+	
+inteiro testeMatriz [6][4]
+	funcao inicio()
+	{
+		testeMatriz [1][1] = 50
+		escreva ("Matriz na linha 1 e coluna 1 \n\n"+ testeMatriz[1][1])
+
+		testeMatriz [4][2] = 60
+		escreva ("\nMatriz na linha 4 coluna 2 \n\n"+ testeMatriz [4][2])
+
+		testeMatriz[5][3] = 100 
+
+		escreva ("\n Matriz na linha 5 e coluna 3\n\n" + testeMatriz[5][3])
+	}
+}
