@@ -1,0 +1,71 @@
+programa
+{
+	
+inteiro m1[4][4]
+	inteiro m2[4][4] 
+	inteiro m3[4][4]
+	inteiro linha, coluna
+	funcao inicio()
+	{
+	//MATRIZ M1
+		para(linha = 0; linha <=3;linha++){
+			para(coluna = 0; coluna <=3; coluna ++){
+				escreva ("Digite os números da matriz M1 ")			
+				leia(m1[linha][coluna])				
+			}
+			
+		}
+			
+		para(linha =0; linha <=3;  linha ++){
+			para(coluna =0; coluna <=3; coluna++){
+				limpa()
+				escreva ("Digite os números da matriz M2 ")
+				leia(m2[linha][coluna])
+			}
+		}
+
+		para(linha =0; linha <=3;  linha ++){
+			para(coluna =0; coluna <=3; coluna++){
+			m3 [linha][coluna] = m1[linha][coluna]+ m2 [linha][coluna]
+			}
+		}
+		escreva ("\tMATRIZ M1\n\n ")
+		para(linha =0; linha <=3;  linha ++){
+			para(coluna =0; coluna <=3; coluna++){
+				se(coluna <3){ 
+					escreva (m1[linha][coluna]+"\t")	
+				}
+				senao{
+					escreva (m1[linha][coluna]+"\n"
+					)	
+				}
+				
+			}
+		
+		}	
+		escreva ("\t MATRIZ M2\n\n")
+		para(linha = 0; linha <=3;linha++){
+			para(coluna = 0; coluna <=3; coluna ++){
+				se(coluna <3){
+					escreva (m2[linha][coluna] + "\t")
+				}
+				senao{
+					escreva (m2[linha][coluna] + "\n")
+				}
+				
+			}
+		}
+		escreva ("\t A SOMA DA MATRIZ M1 E M2 É \n")
+		para(linha = 0; linha <=3; linha++){
+			para (coluna= 0; coluna <=3; coluna++){
+				se(coluna <3){
+					escreva(m3[linha][coluna] + "\t")
+				}
+				senao{
+					escreva(m3[linha][coluna]+"\n")
+					
+				}
+			}
+		}
+	}
+}
