@@ -15,7 +15,7 @@
 			}
 			
 	  }
-	   escreva (" A somatoria é " +soma)
+	   escreva ("\nO somatório das matrizes é " +soma)
 	 
 	}
 
