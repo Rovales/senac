@@ -1,0 +1,22 @@
+//Preencher a matriz
+	
+		para(lin = 0; lin <10; lin++){
+			para(col = 0; col <10; col++){
+				matriz[lin][col] = u.sorteia(1, 100)
+				se(col <9){
+					escreva (matriz[lin][col]+ "\t")
+				}
+				senao escreva (matriz[lin][col]+ "\n")
+			}
+		}
+		para(lin = 0; lin <=9; lin++){
+			para(col = 0; col <=9; col++){
+				 soma += matriz [lin][col]
+			}
+			
+	  }
+	   escreva (" A somatoria é " +soma)
+	 
+	}
+
+}
