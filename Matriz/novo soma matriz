@@ -8,7 +8,7 @@
 				}
 				senao escreva (matriz[lin][col]+ "\n")
 			}
-		}
+		}//SOMAR OS RESULTADOS
 		para(lin = 0; lin <=9; lin++){
 			para(col = 0; col <=9; col++){
 				 soma += matriz [lin][col]
