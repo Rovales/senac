@@ -1,0 +1,29 @@
+programa
+{
+	inclua biblioteca Util--> u
+	
+inteiro matriz [4][4]
+	inteiro linha, coluna
+	
+	funcao inicio()
+	{
+		para(linha = 0; linha <=3; linha++){
+			para(coluna = 0; coluna <=3; coluna++){
+				matriz[linha][coluna] = u.sorteia (0,10)
+		
+			}
+		}//ESCREVER DADOS DA MATRIZ NA TELA 
+		para(linha = 0; linha <=3; linha++){
+			para(coluna = 0; coluna <=3; coluna++){
+				se(coluna <3){
+					escreva (matriz[linha][coluna]+"\t")
+					u.aguarde(1000)
+				}
+				senao{
+					escreva (matriz[linha][coluna]+"\n")
+					u.aguarde(1000)
+				}
+			}
+		}
+	}
+}
