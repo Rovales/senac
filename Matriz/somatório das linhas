@@ -1,0 +1,35 @@
+programa
+{
+	inclua biblioteca Util-->u
+	
+	inteiro matriz [10][10]
+	inteiro lin, col, soma = 0, total = 0
+	funcao inicio()
+	{
+		//Preencher a matriz
+		para(lin = 0; lin <10; lin++){
+			para(col = 0; col <10; col++){
+				matriz[lin][col] = u.sorteia(1, 100)
+			}
+		
+		}
+		para(lin = 0; lin <10; lin++){
+			para(col = 0; col <10; col++){
+				se(col <9){
+					escreva (matriz[lin][col]+ "\t")
+				}
+				senao escreva (matriz[lin][col]+ "\n")
+			}
+		}
+		para(lin = 0; lin <=9; lin++){
+			para(col = 0; col <=9; col++){
+				 soma += matriz [lin][col]
+				 total +=matriz[lin][col]
+			}
+		escreva ("\nA soma da linha "+ lin + ": "+soma)
+		soma = 0
+			
+	  }
+	   escreva ("\nA somatoria é " +total)
+	}
+	}
