@@ -1,0 +1,24 @@
+programa
+{
+	
+inteiro lado, i, j
+	funcao inicio()
+	{
+		escreva("Digite o valor do quadrado")
+		leia (lado)
+		escreva ("\n")
+
+		para(i = 1; i<= lado; i++){
+			para(j = 1; j<= lado; j++){
+				se(i== 1 ou i == lado ou j == 1 ou j== lado){
+					escreva ("* ")
+				}
+				senao{
+					escreva ("  ")
+				}
+			}
+						escreva ("\n")
+		}			
+	}
+	
+}
