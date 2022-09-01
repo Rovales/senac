@@ -1,0 +1,20 @@
+programa
+{
+	
+inteiro mil = 1
+	funcao inicio()
+	{
+		para(mil = 1000; mil <=2000; mil++){
+	
+		se (mil%11 ==2){
+			escreva (mil+ "\n")	
+		}
+		
+			
+		}
+	
+		
+			
+		}				
+	
+}
