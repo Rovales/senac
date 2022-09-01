@@ -1,8 +1,9 @@
 programa
 {
 	
-inteiro i, idade, idade1
+	inteiro i, idade, idade1
 	inteiro faixa1 = 0, faixa2 = 0, faixa3 = 0, faixa4 = 0, faixa5 = 0
+	real por1, por2
 	funcao inicio()
 	{
 		para( i = 1; i <=15; i++){
@@ -27,14 +28,17 @@ inteiro i, idade, idade1
 			}	
 	
 		}	
+			
 			escreva ("A quantidade de pessoas até 15 anos é de "+faixa1+"\n")
 			escreva ("A quantidade de pessoas de 16 a 30  é   "+faixa2+"\n")
 			escreva ("A quantidade de pessoas de 31 a 45 é "+faixa3+"\n")
 			escreva ("A quantidade de pessoas de 46 a 60 é "+faixa4+"\n")
 			escreva ("A quantidade de pessoas acima de 61 é "+faixa5+"\n\n")
-			escreva ("\n A porcentagem da 1º faixa etaria é de " + (faixa1/15)*100+"%" +"\n")
-			escreva (" A porcentagem da 2º faixa etaria é de " + (faixa5/15)*100+"%" +"\n")
+			escreva (" A percentagem de pessoas na primeira faixa etária é de "+ (100*faixa1)/15+"%\n")
+			escreva (" A percentagem de pessoas na última faixa etária é de "+(100*faixa5)/15+"%")
+			
+			
+			
 	}
 				
 }
-	
