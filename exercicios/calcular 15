@@ -1,0 +1,40 @@
+programa
+{
+	
+inteiro i, idade, idade1
+	inteiro faixa1 = 0, faixa2 = 0, faixa3 = 0, faixa4 = 0, faixa5 = 0
+	funcao inicio()
+	{
+		para( i = 1; i <=15; i++){
+			escreva ("Digite a idade ")
+			leia (idade)
+			
+			se(idade <=15){
+				faixa1++
+			}	
+			senao se (idade >= 16 e idade <= 30){
+				faixa2++	
+			}
+			senao se (idade >=31 e idade <= 45){
+				faixa3++
+			}
+			senao se ( idade >= 46 e idade <= 60){
+				faixa4++
+			}
+			senao se (idade >=61){
+				faixa5++
+				
+			}	
+	
+		}	
+			escreva ("A quantidade de pessoas até 15 anos é de "+faixa1+"\n")
+			escreva ("A quantidade de pessoas de 16 a 30  é   "+faixa2+"\n")
+			escreva ("A quantidade de pessoas de 31 a 45 é "+faixa3+"\n")
+			escreva ("A quantidade de pessoas de 46 a 60 é "+faixa4+"\n")
+			escreva ("A quantidade de pessoas acima de 61 é "+faixa5+"\n\n")
+			escreva ("\n A porcentagem da 1º faixa etaria é de " + (faixa1/15)*100+"%" +"\n")
+			escreva (" A porcentagem da 2º faixa etaria é de " + (faixa5/15)*100+"%" +"\n")
+	}
+				
+}
+	
