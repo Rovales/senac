@@ -1,0 +1,20 @@
+programa
+{
+	inteiro tabuada, x
+	funcao inicio()
+	{
+		para (x =1; x<=10; x++)
+		{	
+			para(tabuada= 1; tabuada <=10; tabuada++)
+			
+			{
+				
+			escreva("\t"+tabuada)
+			escreva(" X " + x +   " = "+ x*tabuada)
+								
+			}
+			escreva ("\n")
+				
+		}
+	}
+}
