@@ -1,0 +1,46 @@
+programa
+{
+	
+inteiro i 
+	inteiro idade, massa
+	inteiro faixa50 = 0, faixa20 = 0, inf40 = 0
+	real faixa20Alt = 0 
+	real alt
+	funcao inicio()
+	{
+	escreva ("Digite a idade, altura, e peso de 15 pessoas \n\n")
+		para ( i = 1; i <=15; i++){
+			escreva(" Digite sua idade ")
+			leia(idade)
+			limpa()
+			
+			escreva ("Digite sua altura em metros ")
+			leia(alt)
+			limpa()
+
+			escreva (" Digite seu peso ")
+			leia(massa)
+			limpa()
+
+		se (idade >50){
+			faixa50++
+		}
+		senao se (idade >=10 e idade <=20){
+			faixa20Alt += alt
+			faixa20++
+		}
+		senao se ( massa <40){
+			inf40++
+			}
+		
+		}
+		
+		escreva ("A quantidade de pessoas com idade superior a 50 anos é "+ faixa50+ " pessoas \n\n")
+		escreva ("A média de altura das pessoas com idade entre 10 e 20 anos é "+ faixa20Alt / faixa20+"m.13\n\n")
+		escreva ("A porcentagem das pessoas com peso inferior a 40 quilos é "+(inf40 * 100)/5+"%\n\n")
+		
+
+
+		
+	}
+}
