@@ -1,0 +1,50 @@
+programa
+{
+	inclua biblioteca Texto -->t
+	inclua biblioteca Util
+-->u
+	
+	
+inteiro idade, olhosAzuis = 0, cRuivo = 0, rSemAzul = 0, idadePeso = 0
+	real peso, alt, altInferior = 0
+	cadeia olhos, cabelos
+	funcao inicio()
+	{
+		para(inteiro i = 1; i <=20; i++){
+			escreva ("Digite sua idade (GERADA AUTOMATICAMENTE)\n ")
+			idade = u.sorteia(10, 70)
+			escreva ("Digite seu peso (GERADA AUTOMATICAMENTE)\n")
+			peso = u.sorteia(20, 120)
+			escreva ("Digite sua altura ")
+			leia (alt)
+			escreva ("\nDigite a cor dos olhos (A – Azul, P- Preto, V - Verde e C - Castanho ")
+			leia (olhos)
+			t.caixa_alta(olhos)
+			escreva ("\nDigite  a cor dos cabelos (P – Preto, C - Castanho, L – Louro e R - Ruivo ")
+			leia (cabelos)
+			t.caixa_alta(cabelos)
+			
+
+			se (idade >50 e peso <60){
+				idadePeso++
+			}
+			senao se( alt <1.50){
+				altInferior = altInferior + idade
+			}
+			senao se (olhos == "A"){
+				olhosAzuis++
+			}
+			senao se (cabelos == "R"){
+				cRuivo++
+			}
+		
+			
+		}	
+			limpa()
+			escreva ("A quantidade de pessoas com idade superior a 50 anos e peso inferior a 60 é: "+ idadePeso +"\n")
+			escreva ("A média das idades das pessoas com altura inferior a 1,50 " + altInferior/20+"\n")
+			escreva ("A porcentagem de pessoas com olhos azuis entre as pessoas analisadas é: "+(olhosAzuis *100)/20+"%\n") 
+			escreva ("A quantidade de pessoas ruivas que não tenham olhos azuis é: "+ cRuivo+"\n")
+			
+	}
+}
