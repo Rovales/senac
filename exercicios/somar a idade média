@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Util--> u
+	
+inteiro idade = 1, somaIdade = 0, idadeM = 0
+	funcao inicio()
+	{
+	escreva ("Faça um programa que receba várias idades de pessoas e calcule e mostre a média das idades digitadas\n")
+		escreva ("Finalize digitando a idade igual a zero\n\n")
+		enquanto(idade != 0){
+			escreva (" Digite sua idade ")
+			leia (idade)
+			idadeM++
+			somaIdade += idade
+		}
+		escreva ("A média da idade das pessoas digitadas é "+ somaIdade/idadeM)
+	
+		
+	}
+}
