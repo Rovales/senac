@@ -1,0 +1,37 @@
+programa
+{
+	inclua biblioteca Texto-->t
+	inclua biblioteca Util
+--> u
+	
+inteiro idade = 0, somaIdade = 0, masculino = 0
+	inteiro feminino = 0,  m = 0, f = 0 
+	caracter sexo 
+	funcao inicio()
+	{
+		para(inteiro i = 1; i <= 15; i++){
+			escreva ("\nDigite sua idade (IDADE SORTEADA)\n")
+			//leia (idade)m
+			idade = u.sorteia(1, 100)
+			somaIdade += idade
+			escreva ("Digite o sexo M/F")
+			leia (sexo)
+			
+
+			se(sexo == 'M' ou sexo == 'm'){
+				masculino += idade
+				m++
+			}
+			se(sexo == 'F' ou sexo == 'f'){
+				feminino += idade
+				f++
+			}
+				
+			
+		}
+		escreva ("A soma média de idade do grupo é: "+ somaIdade / 15+"\n\n")
+		escreva ("A idade média das mulheres é : "+ feminino/f+"\n\n")
+		escreva ("A idade média dos homens é : "+ masculino /m)
+		
+	}
+}
